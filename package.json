@@ -1,0 +1,30 @@
+{
+  "name": "telegram-trading-bot",
+  "version": "1.0.0",
+  "description": "Telegram trading bot with Privy integration for Solana, Hyperliquid, and Polymarket",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "@privy-io/server-auth": "^1.0.0",
+    "@solana/web3.js": "^1.87.6",
+    "@solana/spl-token": "^0.3.8",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "bn.js": "^5.2.1",
+    "buffer": "^6.0.3",
+    "@hpke/core": "^1.7.4",
+    "@hpke/chacha20poly1305": "^1.7.1",
+    "@polymarket/clob-client": "^1.0.0",
+    "ethers": "^6.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["telegram", "bot", "trading", "solana", "hyperliquid", "polymarket", "privy"],
+  "author": "",
+  "license": "ISC"
+}
